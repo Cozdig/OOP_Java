@@ -1,4 +1,4 @@
-public class Bicycle extends Check implements Transport {
+public class Bicycle extends Truck implements Transport {
 
     private String modelName;
     private int wheelsCount;
