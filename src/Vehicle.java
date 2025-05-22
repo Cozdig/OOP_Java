@@ -1,4 +1,13 @@
-public class Vehicle implements Transport {
+interface VehicleInterface {
+    void service();
+
+    String getModelName();
+
+    int getWheelsCount();
+}
+
+
+public class Vehicle implements VehicleInterface {
 
     private String modelName;
     private int wheelsCount;

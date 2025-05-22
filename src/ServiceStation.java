@@ -1,10 +1,10 @@
 interface Service {
-    void check(Transport transport);
+    void check(Vehicle transport);
 }
 
 public class ServiceStation implements Service {
 
-    public void check(Transport transport) {
+    public void check(Vehicle transport) {
         transport.service();
     }
 }
